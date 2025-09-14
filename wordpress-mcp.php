@@ -40,6 +40,9 @@ if ( ! file_exists( WORDPRESS_MCP_PATH . 'vendor/autoload.php' ) ) {
 
 require_once WORDPRESS_MCP_PATH . 'vendor/autoload.php';
 
+// GravityForms MCP Integration
+require_once WORDPRESS_MCP_PATH . 'includes/class-gravityforms-mcp.php';
+
 /**
  * Get the WordPress MCP instance.
  *
