@@ -1,4 +1,3 @@
-
 <?php
 /**
  * GravityForms MCP integration for WordPress MCP plugin
